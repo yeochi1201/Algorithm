@@ -45,5 +45,14 @@
     <ClCompile Include="MergeSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
+    <ClCompile Include="Erastothenes.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

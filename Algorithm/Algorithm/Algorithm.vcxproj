@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BFS.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="DFS.cpp" />
+    <ClCompile Include="Erastothenes.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="program.cpp" />

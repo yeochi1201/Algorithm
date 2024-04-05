@@ -13,7 +13,7 @@ public:
 	void Exchange(int aidx, int bidx) {
 		int temp = array[aidx];
 		array[aidx] = array[bidx];
-		array[bidx] = array[aidx];
+		array[bidx] = temp;
 	}
 
 	int Partition(int start, int end) {
@@ -25,7 +25,7 @@ public:
 				low++;
 			}
 			while (array[high] > pivot) {
-				high++;
+				high--;
 			}
 			if (low <= high) {
 				Exchange(low, high);
